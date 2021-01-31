@@ -1,5 +1,7 @@
 # Jiayuan Yao's Curriculum Vitae
 
+[![Build](https://github.com/core-man/cv/workflows/Build/badge.svg)](https://github.com/core-man/cv/actions?query=workflow%3ABuild)
+
 These are the LaTeX sources for my academic CV.
 
 ## Preview
