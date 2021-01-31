@@ -29,7 +29,7 @@ jobs:
 
       - name: Install LaTeX packages
         run: |
-          tlmgr install anyfontsize ctex datetime enumitem etaremune fancyhdr \
+          tlmgr install anyfontsize ctex everysel datetime enumitem etaremune fancyhdr \
                         fmtcount geometry hyperref sourcesanspro sourcecodepro xcolor ms
 
       - name: Build CV
