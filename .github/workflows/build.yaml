@@ -30,7 +30,7 @@ jobs:
       - name: Install LaTeX packages
         run: |
           tlmgr install anyfontsize ctex everysel datetime enumitem etaremune fancyhdr \
-                        fmtcount geometry hyperref sourcesanspro sourcecodepro xcolor ms
+                        fmtcount geometry hyperref sourcesanspro sourcecodepro xcolor
 
       - name: Build CV
         run: make
