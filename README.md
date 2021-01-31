@@ -8,8 +8,8 @@ These are the LaTeX sources for my academic CV.
 
 Preview my CV:
 
-- [English version](en/cv.pdf)
-- [Chinese version (中文版)](cn/cv.pdf)
+- [English version](https://github.com/core-man/cv/blob/gh-pages/DYao_cv_en.pdf)
+- [Chinese version (中文版)](https://github.com/core-man/cv/blob/gh-pages/DYao_cv_cn.pdf)
 
 ## Build
 
