@@ -7,6 +7,9 @@ on:
   push:
     branches:
       - master
+    # Schedule daily builds
+    schedule:
+      - cron: '0 0 * * *'
 
 jobs:
   build:
@@ -15,7 +18,7 @@ jobs:
 
     steps:
       - name: Cancel Previous Runs
-        uses: styfle/cancel-workflow-action@0.6.0
+        uses: styfle/cancel-workflow-action@0.7.0
         with:
           access_token: ${{ github.token }}
 
@@ -29,8 +32,20 @@ jobs:
 
       - name: Install LaTeX packages
         run: |
-          tlmgr install anyfontsize ctex everysel datetime enumitem etaremune fancyhdr \
-                        fmtcount geometry hyperref sourcesanspro sourcecodepro xcolor
+          tlmgr install \
+            anyfontsize \
+            ctex \
+            datetime \
+            enumitem \
+            etaremune \
+            everysel \
+            fancyhdr \
+            fmtcount \
+            geometry \
+            hyperref \
+            sourcesanspro \
+            sourcecodepro \
+            xcolor
 
       - name: Build CV
         run: make
