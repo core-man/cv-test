@@ -18,13 +18,13 @@ To build the CV, you need to have LaTeX installed. The full LaTeX distribution
 thus I recommend to install the lightweight [TinyTeX](https://yihui.org/tinytex/)
 (< 100MB).
 
-1. 	Install TinyTeX:
+1.  Install TinyTeX:
 
-		curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+        $ curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
-2. 	Install LaTeX packages needed by the CV template:
+2.  Install LaTeX packages needed by the CV template:
 
-        tlmgr install \
+        $ tlmgr install \
             anyfontsize \
             ctex \
             datetime \
@@ -39,9 +39,9 @@ thus I recommend to install the lightweight [TinyTeX](https://yihui.org/tinytex/
             sourcecodepro \
             xcolor
 
-3. 	Build the CV:
+3.  Build the CV:
 
-		make
+        $ make
 
 ## Acknowledgemnt
 
